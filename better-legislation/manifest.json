@@ -1,0 +1,15 @@
+{
+  "manifest_version": 3,
+ 
+  "name": "Better Legislation",
+  "version": "1.0.0",
+  "description": "The extension changes the typography on UK legislation to make it more visually appealing.",
+  "icons": { "16": "icon16.png",
+           "32": "icon32.png",
+          "144": "icon144.png" },
+  "content_scripts": [{
+    "css": ["styles.css"],
+
+    "matches": ["https://www.legislation.gov.uk/*", "https://api.parliament.uk/*", "https://hansard.parliament.uk/*"]
+  }]
+}

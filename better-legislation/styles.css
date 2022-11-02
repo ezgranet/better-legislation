@@ -1,0 +1,58 @@
+
+@font-face {
+  font-family: "palatine-parliamentary";
+  src: url("https://cdn.jsdelivr.net/gh/ezgranet/mywebsite/final-palp/PalatineP-Regular.otf");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "palatine-parliamentary";
+  src: url("https://cdn.jsdelivr.net/gh/ezgranet/mywebsite/final-palp/PalatineP-Italic.otf");
+  font-weight: normal;
+  font-style: italic;
+}
+@font-face {
+  font-family: "palatine-parliamentary";
+  src: url("https://cdn.jsdelivr.net/gh/ezgranet/mywebsite/final-palp/PalatineP-Bold.otf");
+  font-weight: bold;
+  font-style: normal;
+}
+@font-face {
+  font-family: "palatine-parliamentary";
+  src: url("https://cdn.jsdelivr.net/gh/ezgranet/mywebsite/final-palp/PalatineP-BoldItalic.otf");
+  font-weight: bold;
+  font-style: italic;
+}
+
+.LegSnippet * {font-family:  "palatine-parliamentary", serif !important}
+
+p.LegText::first-letter {
+  color: black !important;
+  font-size: 3.5em !important;
+    padding: 2px 0px;
+      margin-top: .1em !important;
+  margin-right: 6px;
+  float: left !important;
+
+}
+
+
+#hansard-millbanksytems-com * {font-family:  "palatine-parliamentary", serif !important;
+  text-align:  justify !important;
+}
+
+
+
+
+#main-content * {font-family:  "palatine-parliamentary", serif !important;
+text-align:  justify !important;
+
+}
+
+.primary-text  {font-weight:  bold !important;}
+
+
+.hs_Para {font-family:  "palatine-parliamentary", serif !important;
+  text-align:  justify !important;
+}
